@@ -1,3 +1,3 @@
-import { test } from 'sample-library';
+import { hello } from 'sample-library';
 
-test();
+console.log(hello());

@@ -1,11 +1,11 @@
-import { test } from 'sample-library';
+import { hello } from 'sample-library';
 
 export function setupCounter(element: HTMLButtonElement) {
   let counter = 0
   const setCounter = (count: number) => {
     counter = count
     element.innerHTML = `count is ${counter}`
-    console.log(test);
+    console.log(hello());
   }
   element.addEventListener('click', () => setCounter(counter + 1))
   setCounter(0)

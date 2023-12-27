@@ -4,7 +4,7 @@
     "strict": true,
     "module": "NodeNext",
     "verbatimModuleSyntax": true,
-    "outDir": "lib/"
+    "outDir": "build/"
   },
   "include": ["./src"]
 }
