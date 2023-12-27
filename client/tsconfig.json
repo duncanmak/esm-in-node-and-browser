@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "module": "NodeNext",
+    "verbatimModuleSyntax": true,
+    "outDir": "lib/"
+  },
+  "include": ["./src"]
+}
